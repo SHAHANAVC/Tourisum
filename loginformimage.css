@@ -1,0 +1,95 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=PT+Serif:ital@1&family=Titan+One&display=swap');
+
+
+
+
+form{
+    text-align: center;
+    height: 300px;
+    width: 350px;
+    /* border: 2px solid #000; */
+    padding: 30px;
+    background-color: rgba(0,0,0,.6);
+    border-radius: 10px;
+    margin: auto;
+}
+input{
+    
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-bottom:2px #fff solid ;
+    
+    border-left: 2px solid #fff;
+    
+    border-bottom-left-radius: 20px;
+    background: transparent;
+    text-align: center;
+    font-family: 'Covered By Your Grace', cursive;
+font-family: 'PT Serif', serif;
+font-family: 'Titan One', sans-serif;
+letter-spacing: 1px;
+}
+input:focus{
+    outline: none;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+button{
+    height: 37px;
+    width: 200px;
+    padding: 10px;
+    background: transparent;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+body{
+    background: url(img.jpg) fixed ;
+    background-size: cover;
+    padding: 40px;
+
+}
+h1{
+    color: #fff;
+    text-transform: uppercase;
+}
+a{
+    
+    color: #fff;
+}
+
+.input-field span{
+    position: absolute; 
+}
+
+.icon{
+    position: absolute;
+    padding: 10px;
+    padding-top: 15px;
+    padding-left: 20px;
+    color: #fff;
+    
+}
+input::placeholder{
+    padding-left: 20px;
+    color:#000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

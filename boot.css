@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.srch .bi{
+ position: absolute;
+ padding-top: 10px;
+ padding-left: 10px;
+}
+.form-control{
+    padding: 10px 0 10px 40px;
+}
+input::placeholder{
+    padding-left: 10px;
+}
+input{
+  width: 30px;
+}
+
+.btnlogin{
+    width: 100px;
+    margin-left: 10px;
+}
+.icon{
+    position: fixed;
+    display: block;
+    z-index: 3;
+    width: 30px;
+    height: 100px;
+    top: 400px;
+    left: 80px;
+}
+/* .btnlogin .bi{
+    position: absolute;
+    padding-top: 2px;
+    padding-right:px;
+} */
+.head button:hover{
+    color: #0f0e0e;
+    background-color:rgb(163, 163, 163);
+    border: 1px solid black;
+}
+.head h1{
+    font-size:70px;
+}
+.head button{
+    margin-top: 30px;
+    width: 180px;
+    }
+.imgdiv1{
+    height: 100vh;
+}
+.imgdiv1 img{
+    width: 70%;
+    height: 60%;
+    position: relative;
+}
+.imgdiv1 .head{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 300px;
+}
+.shopfavorite{
+    position: relative;
+    top: 10px;
+
+}
+.shophead h1{
+    letter-spacing: .3cap;
+    font-size: 50px;
+}
+.shophead{
+    width: 100%;
+    text-align: center;
+}
+.shopdiv-content{
+    margin: 100px;
+    padding-left: 100px;
+    height: 500px;
+    width: 570px;
+    line-height: 2.8cap;
+    word-spacing: .5cap;
+    letter-spacing: .3cap;
+}
+.shopdiv-content h2{
+    padding-bottom: 20px;
+}
+.shopdiv-content button{
+    width: 120px;
+    background-color: white;
+}
+.shopdiv-image video{
+    width: 700px;
+    height: 500px;
+}
+.div-bar{
+    margin-top:50px;
+    height: 100vh;
+
+}
+.div-bar-img img{
+    height: 500px;
+    width: 400px;
+    
+    margin-left: 90px;
+    box-shadow: -30px 30px rgb(114, 107, 102);
+}
+.div-bar-content{
+    margin: 40px;
+    width: 300px;
+
+}
+.div-bar-content h2{
+    margin-bottom: 20px;
+}
+.div-bar-content button{
+    width: 120px;
+    background-color: white;
+}
+.crd{
+    width: 400px;
+
+}
+.div-popular{
+    padding: 67px;
+}
+.div-popular h1{
+  padding-top: 60px;
+  margin-bottom: 100px;
+}
+.card-body{
+    margin-top: 40px;
+}
+
+.card-footer .btn{
+    width: 100%;
+}
+.card-footer .btn:hover{
+    background-color: rgb(143, 138, 133);
+}
+.simple .btnshop{
+    width: 180px;
+    background-color: white;
+}
+.simple .btnshop:hover, .div-bar-content button:hover, .shopdiv-content button:hover{
+    background-color: #484747;
+    color: #fff;
+    border: none;
+}
+.imgeposition{
+    height: 100vh;
+}
+
+.imgeposition .div-image1 img{
+    height: 500px;
+    width: 900px;
+    margin-left: 200px;
+    z-index: -3;
+
+}
+/* .imgeposition .div-image2 img{
+    position: absolute;
+    height: 400px;
+    width: 600px;
+    top: 200px;
+} */
+.div-image2 img{
+    height: 400px;
+    width: 600px;
+    margin-left:400px;
+    margin-top: -200px;
+    
+}
+.blog {
+    margin-top: 100px;
+    padding-top: 50px;
+}
+
+/* carousel card image */
+.card-img-top{
+    width: 375px;
+    height: 400px;
+}
+.card-blog{
+    padding: 80px;
+}
+.button-chat {
+    position: fixed;
+    bottom: 60px;
+    right: 80px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    z-index: 3;
+  
+}
+.button-chat i{
+    background-color: transparent;
+    color: #fff;
+
+    font-size: xx-large;
+    border-radius: 20%;
+}
+
+.btn-fraisblog{
+    margin-left: 600px;
+    margin-bottom: 30px;
+
+}
+
+.footer li{
+    list-style: none;
+}
+#footer-h1{
+ width: 260px;
+
+}
+.footer{
+    height: 400px
+
+}

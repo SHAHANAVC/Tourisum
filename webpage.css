@@ -1,0 +1,152 @@
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Titan+One&display=swap'); */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    height: 40px;
+    width: 85px;
+    background-color: black;
+    color: #fff;
+    border: none;
+
+}
+button:hover{
+    background-color: #f00;
+}
+.navigationbar{
+    padding: 15px;
+    text-align: center;
+    background-color: #000;
+    width: 100%;
+    
+}
+.about{
+    position: relative;
+    display: inline-block;
+    
+}
+.about .firstdrop{
+    position: absolute;
+    display: none;
+}
+.about:hover .firstdrop{
+    display: block;
+    background-color: #000;
+}
+.firstdrop a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.firstdrop{
+    background-color: #fff;
+    padding: 10px;
+    
+}
+
+.vission{
+    position: relative;
+    display: inline-block;
+}
+.vission .seconddrop{
+    position: absolute;
+    display: none;
+}
+.vission:hover .seconddrop{
+    display: block;
+    top: 0;
+    right: -60px;
+    background-color:#000;
+}
+.seconddrop a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+   
+}
+.mission{
+    position: relative;
+    display: inline-block;
+}
+.mission .thirddrop{
+    position: absolute;
+    display: none;
+}
+.mission:hover .thirddrop{
+    display: block;
+    top: 0;
+    left: -60px;
+    background-color: #000;
+   
+}
+.thirddrop a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+  
+}
+hr{
+    height: 2px;
+    width: 90%;
+    border: none;
+    background-color: #f00;
+}
+
+.divimg{
+     /* background:  no-repeat url("C:\Users\USER\Desktop\image\df60f88f-7249-4635-b621-d585d7f6bcba.jpg");  */
+     background-image: url(img.jpg);
+    width: 100%;
+    height: 600px; 
+    background-size: cover;
+    z-index: -3;
+
+
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.content1, .content2, .content3{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: rgba(0,0,0,.6);
+    color: #fff;
+    line-height: 2cap;
+}
+/* .content1 p{
+    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Titan One', sans-serif;
+} */
+h2{
+    padding: 30px;
+}
+
+.div2{
+    margin-top: 10px;
+    height: 150px;
+    background-color: black;
+    border-top: 2px solid #fff;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+.div2 p{
+    color: #fff;
+    display: inline;
+}
