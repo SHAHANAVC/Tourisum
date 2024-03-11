@@ -8,7 +8,7 @@
 
 .navigationlist li{
     display: inline;
-    padding: 25px;
+    padding: 24px;
     cursor: pointer;
     font-size: large;
 }
